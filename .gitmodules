@@ -1,0 +1,9 @@
+[submodule "plugins/nomad-material-processing"]
+	path = plugins/nomad-material-processing
+	url = git@github.com:FAIRmat-NFDI/nomad-material-processing.git
+[submodule "plugins/AreaA-data_modeling_and_schemas"]
+	path = plugins/AreaA-data_modeling_and_schemas
+	url = git@github.com:FAIRmat-NFDI/AreaA-data_modeling_and_schemas.git
+[submodule "plugins/nomad-measurements"]
+	path = plugins/nomad-measurements
+	url = git@github.com:FAIRmat-NFDI/nomad-measurements.git
