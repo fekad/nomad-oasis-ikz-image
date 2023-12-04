@@ -1,4 +1,4 @@
-FROM gitlab-registry.mpcdf.mpg.de/nomad-lab/nomad-fair:latest
+FROM gitlab-registry.mpcdf.mpg.de/nomad-lab/nomad-fair:develop
 
 # TODO:
 # - install plugin from package
