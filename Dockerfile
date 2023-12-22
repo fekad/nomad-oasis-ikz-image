@@ -6,6 +6,7 @@ FROM gitlab-registry.mpcdf.mpg.de/nomad-lab/nomad-fair:develop
 
 # Workaround
 RUN pip install xmltodict
+RUN pip install nbformat
 
 
 COPY --chown=nomad:1000 ./plugins/nomad-measurements/src/nomad_measurements /app/plugins/nomad_measurements
@@ -18,7 +19,8 @@ COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/hall/Lakeshore
 COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/IKZ_plugin/src/movpe_IKZ /app/plugins/movpe_IKZ
 COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/IKZ_plugin/src/basesections_IKZ /app/plugins/basesections_IKZ
 # COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/IKZ_plugin/src/movpe_substrates_IKZ /app/plugins/movpe_substrates_IKZ
-# COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/IKZ_plugin/src/ds_IKZ /app/plugins/ds_IKZ
+COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/IKZ_plugin/src/ds_IKZ /app/plugins/ds_IKZ
+COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/analysis_plugin/src/analysis /app/plugins/analysis
 
 # RUN pip install build
 #
