@@ -23,7 +23,7 @@ COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/IKZ_plugin/src
 COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/IKZ_plugin/src/ds_IKZ /app/plugins/ds_IKZ
 COPY --chown=nomad:1000 ./plugins/AreaA-data_modeling_and_schemas/analysis_plugin/src/analysis /app/plugins/analysis
 # add the plugin laytec_epitt_nomad_plugin
-COPY --chown=nomad:1000 ./plugins/laytec_epitt_nomad_plugin/src/laytec_epitt /app/plugins/laytec_epitt_nomad_plugin
+# COPY --chown=nomad:1000 ./plugins/laytec_epitt_nomad_plugin/src/laytec_epitt /app/plugins/laytec_epitt_nomad_plugin
 
 
 
