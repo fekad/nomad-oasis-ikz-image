@@ -7,3 +7,6 @@
 [submodule "plugins/nomad-measurements"]
 	path = plugins/nomad-measurements
 	url = git@github.com:FAIRmat-NFDI/nomad-measurements.git
+[submodule "plugins/laytec_epitt_nomad_plugin"]
+	path = plugins/laytec_epitt_nomad_plugin
+	url = https://github.com/IKZ-Berlin/laytec_epitt_nomad_plugin.git
