@@ -1,4 +1,4 @@
-FROM gitlab-registry.mpcdf.mpg.de/nomad-lab/nomad-fair:develop
+FROM gitlab-registry.mpcdf.mpg.de/nomad-lab/nomad-fair:release-ikz
 
 # TODO:
 # - install plugin from package
