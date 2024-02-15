@@ -1,6 +1,6 @@
 FROM gitlab-registry.mpcdf.mpg.de/nomad-lab/nomad-fair:develop 
 
-# TODO:
+# TODO: 
 # - install plugin from package
 # - add the dependency here: https://github.com/FAIRmat-NFDI/nomad-measurements/blob/main/pyproject.toml
 
